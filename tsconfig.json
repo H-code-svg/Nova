@@ -1,0 +1,47 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "allowJs": true,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "removeComments": false,
+    "resolveJsonModule": true,
+    "preserveConstEnums": true,
+    "sourceMap": true,
+    "lib": [
+      "es2020",
+      "dom",
+      "WebWorker"
+    ],
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "strictNullChecks": true,
+    "noUnusedLocals": true,
+    "noImplicitThis": true,
+    "noUnusedParameters": true,
+    "importHelpers": true,
+    "noEmitHelpers": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "pretty": true,
+    "target": "es2019",
+    "jsx": "react",
+    "typeRoots": [
+      "./node_modules/@types"
+    ],
+    "baseUrl": "."
+  },
+  "include": [
+    "src/**/*",
+    "tests/**/*"
+  ],
+  "exclude": [
+    "node_modules/**/*"
+  ],
+  "formatCodeOptions": {
+    "indentSize": 2,
+    "tabSize": 2
+  }
+}
