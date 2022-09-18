@@ -52,7 +52,7 @@
     "getos": "^3.2.1",
     "mobx": "^6.5.0",
     "mobx-react": "^7.3.0",
-    "monaco-editor": "^0.21.3",
+    "monaco-editor": "^0.34.0",
     "namor": "^2.0.2",
     "node-watch": "^0.7.3",
     "p-debounce": "^2.0.0",
